@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<DesignationCategoryDef>
+		<defName>Zaf</defName>
+		<label>Medieval+</label>
+		<description>Medieval Furniture</description>
+		<order>452</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+	<DesignationCategoryDef>
+		<defName>MV_Workbenches</defName>
+		<label>MV Work+</label>
+		<description>Medieval Workbenches</description>
+		<order>453</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+	<DesignationCategoryDef>
+		<defName>MV_Deco</defName>
+		<label>MV Misc+</label>
+		<description>Medieval Decorations</description>
+		<order>455</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+</Defs>

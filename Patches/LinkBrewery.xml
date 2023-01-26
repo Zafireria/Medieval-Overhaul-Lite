@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Brewery"][not(comps)]</xpath>
+         <value>
+          <comps></comps>
+           </value>
+    </Operation>
+
+<Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Brewery"]/comps[not(li[@Class="CompProperties_AffectedByFacilities"])]</xpath>
+        <value>
+         <li Class="CompProperties_AffectedByFacilities">
+          <linkableFacilities></linkableFacilities>
+           </li>
+        </value>
+    </Operation>
+
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Brewery"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+            <li>DankPyon_RusticCookingTools</li>
+        </value>
+    </Operation> 
+  
+</Patch>

@@ -1,0 +1,21 @@
+Changes that were made from Medieval Overhaul.
+
+- All resource has been converted to vanilla counterparts (eg, Ironingot to Steel etc)
+- All productions/workbench are functional (except the cleaning bench) modded meals should also work unless the proccess has changed, meaning VE's Brewing Soup mod won't work without needed to be patched. 
+- The scribe table is now a Basic Research table.
+- The Bird Post is now a Comns. And requires electricity, yeah not very realistic but had to prevent it from being a cheap option to comns.
+- The Cart still function as an orbital trader. 
+- Due to the way the storage worked in the original mod a lot of items are no longer storage but decorations instead. Those that still are, will have (Functional storage) in the description.
+- Some items has a dropdown, meaning instead of selecting materials to build it with, you can change size or style. 
+- Added a research tab to try and balance it out a bit and to not overwhelm people with items.
+- Some work items like "Tool Rack" and "Bookshelves" now functions as facilities that works both workbenches from this mod and vanilla, speeding up the work a bit.
+- Added 3 Categories tab "MV Misc+" "Medieval+" and "MV Workbenches+"
+- The Apiary, tanning racks and drying racks are now decorations.
+- Both art tables from this mod and vanilla can create art from Medieval Overhaul. Art table from this mod are the Jewerly bench and Trestle.
+- The large shelfs have been resized to be a bit smaller.
+- The embrasures does not count as a structure in that sense the pawns will automatically build a roof. However, it's are capable of holding a roof if you manually add a roof. 
+
+
+This mod does not require Medieval Overhaul or any other mods. On the same note this means that no other mods are supported either.  Meaning, if you have Vanilla Cooking Expanded - Stews (or other mods like it) the Stewing pot will still not give you stews as it would need to be patched in.
+
+I would be more than happy to add in any patches or code optimization to this mod, just let me know. 

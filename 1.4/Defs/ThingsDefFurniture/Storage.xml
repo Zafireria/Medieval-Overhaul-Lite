@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_WoodLogs1x1c</defName>
+		<label>raw wood pile</label>
+		<description>Logs that are stacked in an efficient manner to save more space. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/RawWood1x1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/RawWood1x1_north</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>4</Mass>
+			<WorkToBuild>250</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+		</statBases>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+		<building>
+			<maxItemsInCell>2</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_WoodLogs2x2c</defName>
+		<label>raw wood (2x2)</label>
+		<description>Logs that are stacked in an efficient manner to save more space. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/RawWood2x2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<uiIconScale>0.75</uiIconScale>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_Bricks1x1c</defName>
+		<label>bricks(1x1)</label>
+		<description>Bricks that are stacked in an efficient manner to save more space. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/Bricks1x1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<size>(1,1)</size>
+		<uiIconScale>0.5</uiIconScale>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>4</Mass>
+			<WorkToBuild>250</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<building>
+			<maxItemsInCell>2</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>StoneBlocks</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>StoneBlocks</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_Bricks2x2c</defName>
+		<label>bricks</label>
+		<description>Bricks that are stacked in an efficient manner to save more space. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/Bricks2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<size>(2,2)</size>
+		<uiIconScale>0.75</uiIconScale>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>StoneBlocks</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>StoneBlocks</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_RusticCupboardEmpty</defName>
+		<label>cupboard</label>
+		<description>An open cupboard to store and display objects in an efficient manner.</description>
+		<graphicData>
+			<texPath>Storage/CupboardEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<uiIconPath>Storage/CupboardEmpty_north</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>12</Mass>
+			<WorkToBuild>750</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7.5</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<building>
+			<maxItemsInCell>2</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>Zaf</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_LargeShelfEmpty</defName>
+		<label>large empty shelf</label>
+		<description>A large square platform designed to store things, keeping them clean and off the ground. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/StackEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>3</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>Zaf</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_ShelfEmpty</defName>
+		<label>empty shelf</label>
+		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside. (Functional Storage)</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Storage/ShelfEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconPath>Storage/ShelfEmpty_north</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
+		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<building>
+			<maxItemsInCell>3</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<designationCategory>Zaf</designationCategory>
+	</ThingDef>
+	<!--Weapon Rack-->
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_RackEmpty</defName>
+		<label>empty rack</label>
+		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside. (Functional Storage)</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Storage/RackEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Weapons</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<designationCategory>Zaf</designationCategory>
+	</ThingDef>
+	<!-- Carts -->
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_Storage_Cart_Empty</defName>
+		<label>empty cart</label>
+		<description>A trusty wagon to carry novelties, artifacts, and goods across the unforgiving lands of the rim. Can be used to store items. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Storage/Cart_Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<size>(2,2)</size>
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>2500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+			<maxItemsInCell>3</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Chunks</li>
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<!--Market-->
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_TableMarket_Meat</defName>
+		<label>meat stall</label>
+		<description>A table filled to display meat. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Deco/MarketMeat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>12</Mass>
+			<WorkToBuild>750</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7.5</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="False">
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+	<ThingDef ParentName="ShelfBase">
+		<defName>DankPyon_TableMarket_Dairy</defName>
+		<label>dairy stall</label>
+		<description>A table filled to display dairy goods. (Functional Storage)</description>
+		<graphicData>
+			<texPath>Deco/MarketDairy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>12</Mass>
+			<WorkToBuild>750</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7.5</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="False">
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+				<priority>Normal</priority>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>BiggerStorages</li>
+		</researchPrerequisites>
+		<designationCategory>MV_Deco</designationCategory>
+	</ThingDef>
+</Defs>

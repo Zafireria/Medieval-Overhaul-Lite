@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name="MakeableDrugBase"]/recipeMaker/recipeUsers</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name="MakeableDrugBase"]/recipeMaker</xpath>
+      <value>
+        <recipeUsers/>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="MakeableDrugBase"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <li>DankPyon_AlchemyBench</li>
+    </value>
+  </Operation>
+</Patch>

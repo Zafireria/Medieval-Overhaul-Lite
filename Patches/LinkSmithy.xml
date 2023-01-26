@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FueledSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>DankPyon_ToolRack</li>
+      <li>DankPyon_QuenchingBucket</li>
+      <li>DankPyon_Grinder</li>
+	  <li>DankPyon_Bellows</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElectricSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>DankPyon_ToolRack</li>
+      <li>DankPyon_QuenchingBucket</li>
+      <li>DankPyon_Grinder</li>
+      <li>DankPyon_Bellows</li>	  
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableMachining"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>DankPyon_ToolRack</li>
+      <li>DankPyon_Grinder</li>	  
+    </value>
+  </Operation>  
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>DankPyon_ToolRack</li>
+      <li>DankPyon_Grinder</li>	  
+    </value>
+  </Operation>
+  
+</Patch>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name="ApparelMakeableBase"]/recipeMaker/recipeUsers</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name="ApparelMakeableBase"]/recipeMaker</xpath>
+      <value>
+        <recipeUsers/>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelMakeableBase"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <li>DankPyon_TailorsBench</li>
+    </value>
+  </Operation>
+</Patch>

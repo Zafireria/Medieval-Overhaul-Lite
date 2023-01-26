@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/comps[not(li[@Class="CompProperties_AffectedByFacilities"])]</xpath>
+        <value>
+            <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities></linkableFacilities>
+            </li>
+        </value>
+    </Operation>
+
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+            <li>DankPyon_RusticCupboard</li>
+            <li>DankPyon_RusticCookingTools</li>
+            <li>DankPyon_TableBaking</li>
+        </value>
+    </Operation>  
+  
+</Patch>

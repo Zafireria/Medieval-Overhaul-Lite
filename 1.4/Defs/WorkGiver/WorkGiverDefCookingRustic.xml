@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+    <defName>Zaf_DoBillsCook</defName>
+    <label>cook meals at stove</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DankPyon_RusticCookingTable</li>
+      <li>DankPyon_StoneOven</li>
+      <li>DankPyon_StoneOvenLarge</li>
+      <li>DankPyon_Grill</li>
+      <li>DankPyon_StewPot</li>
+      <li>DankPyon_Millstone</li>	  
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>cooking at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+
+</Defs>

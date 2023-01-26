@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Medieval Furniture</name>
+  <author>SirLalaPyon, Zaf</author>
+  <packageId>Zaf.Medieval</packageId>  
+  <supportedVersions>
+  <li>1.4</li>
+  </supportedVersions>
+  <description>Medieval Furnitures.
+</description>
+</ModMetaData>
