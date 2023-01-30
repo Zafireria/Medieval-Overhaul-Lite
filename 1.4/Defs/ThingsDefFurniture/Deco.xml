@@ -205,8 +205,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_RackSpear</defName>
 		<label>spear rack</label>
-		<description>A rack for storing spears in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A rack for storing spears in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>		
 		<graphicData>
 			<texPath>Storage/RackFilled3</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -231,8 +230,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_RackMixed</defName>
 		<label>weapon rack</label>
-		<description>A rack for storing weapons in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A rack for storing weapons in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>		
 		<graphicData>
 			<texPath>Storage/RackFilled1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1041,8 +1039,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_StrawPile</defName>
 		<label>straw pile</label>
-		<description>A pile of dry stalks of cereal plants such as wheat, rice, oats, barley, and rye.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A pile of dry stalks of cereal plants such as wheat, rice, oats, barley, and rye.</description>		
 		<graphicData>
 			<texPath>Storage/StrawPile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1076,6 +1073,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories Inherit="false">
@@ -1086,7 +1084,7 @@
 			<Mass>8</Mass>
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
+		</statBases>		
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1113,6 +1111,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1139,6 +1138,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<techLevel>Medieval</techLevel>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1164,6 +1164,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
