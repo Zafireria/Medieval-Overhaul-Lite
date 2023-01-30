@@ -1083,7 +1083,7 @@
 			<Mass>8</Mass>
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
+		</statBases>		
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1111,6 +1111,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1138,6 +1139,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<techLevel>Medieval</techLevel>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1164,6 +1166,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<rotatable>false</rotatable>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
