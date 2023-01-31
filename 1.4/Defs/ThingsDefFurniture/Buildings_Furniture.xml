@@ -1242,7 +1242,7 @@
 				<volume>(0.23, 0.26, 0.23)</volume>
 			</shadowData>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,2)</size>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -1286,7 +1286,7 @@
 				<volume>(0.23, 0.26, 0.23)</volume>
 			</shadowData>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,2)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>

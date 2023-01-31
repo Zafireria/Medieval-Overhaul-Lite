@@ -178,8 +178,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_RackSword</defName>
 		<label>sword rack</label>
-		<description>A rack for storing swords in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A rack for storing swords in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>		
 		<graphicData>
 			<texPath>Storage/RackFilled2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -205,8 +204,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_RackSpear</defName>
 		<label>spear rack</label>
-		<description>A rack for storing spears in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A rack for storing spears in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>		
 		<graphicData>
 			<texPath>Storage/RackFilled3</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -231,8 +229,7 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_RackMixed</defName>
 		<label>weapon rack</label>
-		<description>A rack for storing weapons in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A rack for storing weapons in an orderly fashion. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>		
 		<graphicData>
 			<texPath>Storage/RackFilled1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -265,7 +262,7 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,1)</size>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>4</Mass>
@@ -288,7 +285,7 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,1)</size>
 		<castEdgeShadows>true</castEdgeShadows>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -313,7 +310,7 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,1)</size>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>4</Mass>
@@ -336,7 +333,7 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(1,1)</size>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>4</Mass>
@@ -1041,15 +1038,14 @@
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>DankPyon_StrawPile</defName>
 		<label>straw pile</label>
-		<description>A pile of dry stalks of cereal plants such as wheat, rice, oats, barley, and rye.</description>
-		<thingClass>Building_Storage</thingClass>
+		<description>A pile of dry stalks of cereal plants such as wheat, rice, oats, barley, and rye.</description>		
 		<graphicData>
 			<texPath>Storage/StrawPile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2.70,2.70)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<costList>
 			<Hay>20</Hay>
@@ -1076,6 +1072,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories Inherit="false">
@@ -1102,6 +1099,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories Inherit="false">
@@ -1128,6 +1126,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories Inherit="false">
@@ -1153,6 +1152,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories Inherit="false">

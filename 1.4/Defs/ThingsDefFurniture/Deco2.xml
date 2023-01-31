@@ -348,7 +348,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -372,7 +372,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -396,7 +396,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -420,7 +420,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -445,7 +445,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -470,7 +470,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -495,7 +495,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>

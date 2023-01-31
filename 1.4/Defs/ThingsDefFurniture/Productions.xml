@@ -85,7 +85,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<size>(2,1)</size>
+		<size>(3,1</size>
 		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Woody</li>
@@ -131,7 +131,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<size>(2,1)</size>
+		<size>(3,1</size>
 		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Woody</li>
@@ -184,6 +184,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Woody</li>
@@ -229,6 +230,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<statBases>
 			<Cleanliness>5</Cleanliness>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -315,6 +317,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costStuffCount>75</costStuffCount>
@@ -569,6 +572,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Woody</li>
@@ -607,6 +611,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
@@ -693,6 +698,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(3,1</size>
 		<staticSunShadowHeight>0.3</staticSunShadowHeight>
 		<stuffCategories>
 			<li>Stony</li>
@@ -846,6 +852,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<size>(2,1</size>
 		<staticSunShadowHeight>0.3</staticSunShadowHeight>
 		<stuffCategories>
 			<li>Stony</li>
@@ -883,8 +890,7 @@
 			<WorkToBuild>2000</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(2,1)</size>
+		</statBases>		
 		<designationCategory>MV_Workbenches</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>

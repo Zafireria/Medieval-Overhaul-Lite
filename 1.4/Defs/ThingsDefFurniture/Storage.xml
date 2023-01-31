@@ -248,7 +248,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<size>(3,3)</size>
+		<size>(2,2)</size>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>16</Mass>
@@ -464,6 +464,7 @@
 		<researchPrerequisites>
 			<li>BiggerStorages</li>
 		</researchPrerequisites>
+		<rotatable>false</rotatable>
 		<designationCategory>MV_Deco</designationCategory>
 	</ThingDef>
 	<!--Market-->

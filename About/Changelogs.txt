@@ -1,0 +1,10 @@
+30/01/2023
+
+- Fixed Spear rack, Mixed rack and Straw pile errors when using LMW's Storage mod.
+
+- Fixed rotation on carts. 
+
+
+31/01/2023
+
+- Fixed hitboxes/size on a couple of items.
