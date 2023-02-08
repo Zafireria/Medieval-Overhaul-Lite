@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+    <defName>DankPyon_RusticHearthCookBill</defName>
+    <label>cook meals at campfire</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>97</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DankPyon_RusticHearth</li>
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>cooking at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+
+</Defs>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Shelves</defName>
+    <label>More Shelves</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_LargeShelf</defName>
+    <label>More Large Shelves</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Barrels</defName>
+    <label>More Barrels</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_PatchRugs</defName>
+    <label>More Sizes</label>
+    <iconSource>Placed</iconSource>       
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Carts</defName>
+    <label>More Carts</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Sacks</defName>
+    <label>More Sacks</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Cupboards</defName>
+    <label>More Cupboards</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Tables</defName>
+    <label>More Sizes</label>
+    <iconSource>Placed</iconSource>       
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Chairs</defName>
+    <label>More Sizes</label>
+    <iconSource>Placed</iconSource>       
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_RusticTable</defName>
+    <label>More Sizes</label>
+    <iconSource>Placed</iconSource>       
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Reinforced</defName>
+    <label>More Sizes</label>
+    <iconSource>Placed</iconSource>      
+  </DesignatorDropdownGroupDef>
+
+</Defs>
