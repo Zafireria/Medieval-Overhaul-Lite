@@ -976,7 +976,7 @@
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<!--Closets-->
-	<ThingDef ParentName="FurnitureWithQualityBase">
+	<ThingDef ParentName="ArtableFurnitureBase">
 		<defName>DankPyon_RusticCloset</defName>
 		<label>closet</label>
 		<description>A closet to store clothes efficiently and beautifully. Place near beds for a slight comfort bonus</description>
@@ -984,8 +984,7 @@
 			<texPath>Furnitures/Dressers/RusticCloset</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>3</drawSize>
-		</graphicData>
-		<thingClass>Building</thingClass>
+		</graphicData>		
 		<uiIconScale>0.65</uiIconScale>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<size>(1,1)</size>
@@ -1010,19 +1009,7 @@
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
-		<building>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-			<fixedStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Apparel</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-		</building>
+		<costStuffCount>50</costStuffCount>		
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>

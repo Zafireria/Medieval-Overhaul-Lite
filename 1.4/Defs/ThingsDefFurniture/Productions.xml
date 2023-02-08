@@ -271,10 +271,7 @@
 		</graphicData>
 		<costList>
 			<WoodLog>20</WoodLog>
-		</costList>
-		<recipes>
-			<li>Make_Patchleather</li>
-		</recipes>
+		</costList>		
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -299,6 +296,19 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<recipes>
+		    <li>Make_Patchleather</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeCloth</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeClothBulk</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeLinen</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeLinenBulk</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeDevilstrand</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeDevilstrandBulk</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeSynthreadCloth</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeSynthreadClothBulk</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeHyperweaveCloth</li>
+			<li MayRequire="dismarzero.VGP.VGPGardenFabrics">MakeHyperweaveClothBulk</li>
+		</recipes>
 	</ThingDef>
 	<ThingDef ParentName="BenchBase">
 		<defName>DankPyon_TailorsBench</defName>
@@ -968,20 +978,16 @@
 			<li>CookMealFine_Meat</li>
 			<li>CookMealLavish</li>
 			<li>CookMealLavish_Veg</li>
-			<li>CookMealLavish_Meat</li>
-			<li>CookMealSurvival</li>
+			<li>CookMealLavish_Meat</li>			
 			<li>CookMealSimpleBulk</li>
 			<li>CookMealFineBulk</li>
 			<li>CookMealFineBulk_Veg</li>
 			<li>CookMealFineBulk_Meat</li>
 			<li>CookMealLavishBulk</li>
 			<li>CookMealLavishBulk_Veg</li>
-			<li>CookMealLavishBulk_Meat</li>
-			<li>CookMealSurvivalBulk</li>
-			<li>Make_Pemmican</li>
-			<li>Make_PemmicanBulk</li>
+			<li>CookMealLavishBulk_Meat</li>			
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>			
 		</recipes>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -1028,7 +1034,7 @@
 		<building>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
+		</building>		
 	</ThingDef>
 	<ThingDef ParentName="BenchBase">
 		<defName>DankPyon_Millstone</defName>
