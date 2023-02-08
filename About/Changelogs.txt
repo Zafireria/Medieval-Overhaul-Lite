@@ -2,4 +2,21 @@
 
 - Fixed Spear rack, Mixed rack and Straw pile errors when using LMW's Storage mod.
 
+<<<<<<< HEAD
 - Fixed rotation on carts. 
+
+
+31/01/2023
+
+- Fixed hitboxes/size on a couple of items.
+
+
+08/02/2023
+
+- Fixed up some strings.
+- Added patch for "VGP Garden Fabric" to the looms.
+- Added patch for "Jewelry", now the jewelery Bench can make jewels.
+- Added patch for "Smoking Meat" the smoker should now be able to make smoked food. 
+=======
+- Fixed rotation on carts. 
+>>>>>>> 5de83e3d9fd8fd070cf79c2f6a5b09482a702ccf
