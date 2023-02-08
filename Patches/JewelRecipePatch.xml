@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Jewelry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>//recipeUsers[li="TableSculpting"]</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>//recipeUsers[li="TableSculpting"]</xpath>
+						<value>
+							<comps/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>//recipeUsers[li="TableSculpting"]</xpath>
+					<value>
+						<li>DankPyon_JewelryBench</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
