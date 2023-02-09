@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+    <defName>Zaf_DoBillsSmokeMeat</defName>
+    <label>smoke meat</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>95</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DankPyon_Smoker</li>	  
+    </fixedBillGiverDefs>
+    <verb>smoke</verb>
+    <gerund>smoking</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+
+
+</Defs>
