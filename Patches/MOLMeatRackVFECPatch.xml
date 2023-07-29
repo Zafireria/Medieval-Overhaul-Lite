@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Classical</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName="DankPyon_DryingRack1x2c"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DankPyon_DryingRack1x2c"]</xpath>
+						<value>
+							<comps/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_DryingRack1x2c"]/comps</xpath>
+					<value>						
+							<li Class="ItemProcessor.CompProperties_ItemProcessor">
+								<buildingOnGraphic>Deco/DryingRack1x2FilledMeat_south</buildingOnGraphic>
+								<buildingFinishedGraphic>Deco/DryingRack1x2FilledMeatDone</buildingFinishedGraphic>
+								<numberOfInputs>1</numberOfInputs>
+								<qualitySelector>false</qualitySelector>
+								<isCategoryBuilding>true</isCategoryBuilding>
+								<InsertFirstItemDesc>VanillaFactionsExpanded.DryingRack.InsertFirstItemDesc</InsertFirstItemDesc>
+								<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+								<resetSemiautomaticIcon>UI/Gizmos/MeatDryingRack_ResetRecipes</resetSemiautomaticIcon>
+								<chooseIngredientsIcon>UI/Gizmos/MeatDryingRack_ChooseIngredient</chooseIngredientsIcon>
+								<showProgressBar>true</showProgressBar>
+								<bringIngredientsText>VanillaFactionsExpanded.DryingRack.bringIngredientsText</bringIngredientsText>
+								<bringIngredientsDesc>VanillaFactionsExpanded.DryingRack.bringIngredientsDesc</bringIngredientsDesc>
+								<bringIngredientsIcon>UI/Gizmos/MeatDryingRack_ChooseIngredient</bringIngredientsIcon>
+								<cancelIngredientsText>VanillaFactionsExpanded.DryingRack.cancelIngredientsText</cancelIngredientsText>
+								<cancelIngredientsDesc>VanillaFactionsExpanded.DryingRack.cancelIngredientsDesc</cancelIngredientsDesc>
+								<cancelIngredientsIcon>UI/Gizmos/MeatDryingRack_Cancel</cancelIngredientsIcon>
+								<noPowerDestroysProgress>false</noPowerDestroysProgress>
+								<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+								<isTemperatureAcceleratingMachine>true</isTemperatureAcceleratingMachine>
+								<maxAccelerationTemp>999</maxAccelerationTemp>
+								<minAccelerationTemp>28</minAccelerationTemp>
+								<accelerationFactor>0.7</accelerationFactor>
+							</li>						
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_DryingRack1x2c"]/thingClass</xpath>
+					<value>
+						<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

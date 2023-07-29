@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>//recipeUsers[li="VCE_Grill"]</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>//recipeUsers[li="VCE_Grill"]</xpath>
+						<value>
+							<comps/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>//recipeUsers[li="VCE_Grill"]</xpath>
+					<value>
+						<li>DankPyon_Grill</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
