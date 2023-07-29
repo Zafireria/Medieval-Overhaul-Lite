@@ -2,7 +2,7 @@
 <Defs>
 	<DesignationCategoryDef>
 		<defName>Zaf</defName>
-		<label>Medieval+</label>
+		<label>MOL Furniture</label>
 		<description>Medieval Furniture</description>
 		<order>452</order>
 		<specialDesignatorClasses>
@@ -12,7 +12,7 @@
 	</DesignationCategoryDef>
 	<DesignationCategoryDef>
 		<defName>MV_Workbenches</defName>
-		<label>MV Work+</label>
+		<label>MOL Work</label>
 		<description>Medieval Workbenches</description>
 		<order>453</order>
 		<specialDesignatorClasses>
@@ -22,7 +22,7 @@
 	</DesignationCategoryDef>
 	<DesignationCategoryDef>
 		<defName>MV_Deco</defName>
-		<label>MV Misc+</label>
+		<label>MOL Misc</label>
 		<description>Medieval Decorations</description>
 		<order>455</order>
 		<specialDesignatorClasses>

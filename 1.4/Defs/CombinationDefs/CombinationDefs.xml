@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ItemProcessor.CombinationDef>
+		<defName>DankPyon_DryingRack1x2c</defName>
+		<building>DankPyon_DryingRack1x2c</building>
+		<isCategoryRecipe>true</isCategoryRecipe>
+		<items>
+			<li>MeatRaw</li>
+		</items>
+		<disallowedThingDefs>
+			<li>VFEC_Jerky</li>
+		</disallowedThingDefs>
+		<amount>
+			<li>150</li>
+		</amount>
+		<result>VFEC_Jerky</result>
+		<yield>150</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>20</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+</Defs>

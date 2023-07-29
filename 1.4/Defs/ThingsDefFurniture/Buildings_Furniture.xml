@@ -1308,7 +1308,7 @@
 		<thingCategories>
 			<li>BuildingsFurniture</li>
 		</thingCategories>
-		<description>A candle to prevent darkness seeping in your room.</description>
+		<description>A small lamp that lights up a very small area, not suitable to light up a room but better than none. Requires no refueling, emits no heat.</description>
 		<graphicData>
 			<texPath>Furnitures/Lamps/RusticLamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

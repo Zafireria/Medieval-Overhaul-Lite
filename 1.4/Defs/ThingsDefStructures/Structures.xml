@@ -101,6 +101,9 @@
 		</stuffCategories>
 		<uiIconPath>Structures/SlabDoor_MenuIcon</uiIconPath>
 		<costStuffCount>55</costStuffCount>
+		<researchPrerequisites>
+		<li>Reinforced</li>
+		</researchPrerequisites>
 		<designationHotKey>Misc1</designationHotKey>
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
@@ -166,6 +169,9 @@
 			</blueprintGraphicData>
 		</building>
 		<designationHotKey Inherit="False"/>
+		<researchPrerequisites>
+		<li>Reinforced</li>
+		</researchPrerequisites>
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>DankPyon_Palisade</defName>

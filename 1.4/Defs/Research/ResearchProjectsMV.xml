@@ -6,7 +6,7 @@
     <label>Royal Furniture</label>
 	<tab>Medieval</tab>
     <description>No more does your Royal pawns have to settle with peasent funiture.</description>
-    <baseCost>500</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
       <li>TribalStart</li>
@@ -23,7 +23,7 @@
     <label>Workbench Tools</label>
 	<tab>Medieval</tab>
     <description>Tools to help speed up your workbenches.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>700</baseCost>
     <techLevel>Medieval</techLevel>
       <researchViewX>0.00</researchViewX>
       <researchViewY>0.00</researchViewY>
@@ -40,7 +40,7 @@
     <label>Reinforced</label>
 	<tab>Medieval</tab>
     <description>Allows the contruct of reinforced walls, doors, furniture etc.</description>
-    <baseCost>1500</baseCost>
+    <baseCost>1700</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>3.50</researchViewY>

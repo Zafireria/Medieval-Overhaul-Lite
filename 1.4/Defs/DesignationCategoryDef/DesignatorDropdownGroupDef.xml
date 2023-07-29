@@ -72,5 +72,32 @@
     <label>More Sizes</label>
     <iconSource>Placed</iconSource>      
   </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Signs</defName>
+    <label>More Signs</label>
+    <iconSource>Placed</iconSource>      
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Rugs</defName>
+    <label>More rugs</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_Racks</defName>
+    <label>More Racks</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Zaf_MarketTents</defName>
+    <label>More Tents</label>
+    <iconSource>Placed</iconSource>
+    <useGridMenu>true</useGridMenu>    
+  </DesignatorDropdownGroupDef>
 
 </Defs>

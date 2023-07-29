@@ -120,6 +120,7 @@
 			<Beauty>2</Beauty>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
 		</statBases>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
 		<comps>
 			<li Class="CompProperties_Styleable"/>
@@ -131,6 +132,7 @@
 		<graphicData>
 			<texPath>Deco/SignBakery</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Butcher</defName>
@@ -138,6 +140,7 @@
 		<graphicData>
 			<texPath>Deco/SignButcher</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Smith</defName>
@@ -145,6 +148,7 @@
 		<graphicData>
 			<texPath>Deco/SignSmith</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Apothecary</defName>
@@ -152,6 +156,7 @@
 		<graphicData>
 			<texPath>Deco/SignHerbalist</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Jewelry</defName>
@@ -159,6 +164,7 @@
 		<graphicData>
 			<texPath>Deco/SignJewelry</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Library</defName>
@@ -166,6 +172,7 @@
 		<graphicData>
 			<texPath>Deco/SignBook</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_SignBase">
 		<defName>DankPyon_Sign_Tailor</defName>
@@ -173,6 +180,7 @@
 		<graphicData>
 			<texPath>Deco/SignTailor</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_Signs</designatorDropdown>
 	</ThingDef>
 	<!--Racks-->
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -199,6 +207,7 @@
 			<WorkToBuild>500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<designatorDropdown>Zaf_Racks</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -224,6 +233,7 @@
 			<WorkToBuild>500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<designatorDropdown>Zaf_Racks</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -249,6 +259,7 @@
 			<WorkToBuild>500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
+		<designatorDropdown>Zaf_Racks</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
 	</ThingDef>
 	<!--Sacks-->
@@ -582,6 +593,7 @@
 			<WorkToBuild>750</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7.5</StyleDominance>
 		</statBases>
+		<designatorDropdown>Zaf_MarketTents</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<building>
@@ -599,6 +611,7 @@
 		<graphicData>
 			<texPath>Deco/Tent2</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_MarketTents</designatorDropdown>
 	</ThingDef>
 	<ThingDef ParentName="DankPyon_MarketTent_Base">
 		<defName>DankPyon_MarketTent_3c</defName>
@@ -606,6 +619,7 @@
 		<graphicData>
 			<texPath>Deco/Tent3</texPath>
 		</graphicData>
+		<designatorDropdown>Zaf_MarketTents</designatorDropdown>
 	</ThingDef>
 	<!--Timber-->
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -684,6 +698,8 @@
 		</statBases>
 		<size>(2,1)</size>
 		<castEdgeShadows>true</castEdgeShadows>
+		<hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<costList>
 			<WoodLog>60</WoodLog>
 			<Steel>60</Steel>
@@ -1151,8 +1167,7 @@
 			<Mass>8</Mass>
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<rotatable>false</rotatable>
+		</statBases>		
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1179,8 +1194,7 @@
 			<Mass>8</Mass>
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<rotatable>false</rotatable>
+		</statBases>		
 		<techLevel>Medieval</techLevel>
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<designationCategory>MV_Deco</designationCategory>
@@ -1206,8 +1220,7 @@
 			<Mass>8</Mass>
 			<WorkToBuild>2500</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<rotatable>false</rotatable>
+		</statBases>		
 		<designatorDropdown>Zaf_Carts</designatorDropdown>
 		<techLevel>Medieval</techLevel>
 		<designationCategory>MV_Deco</designationCategory>

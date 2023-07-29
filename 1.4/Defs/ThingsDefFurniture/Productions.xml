@@ -58,6 +58,9 @@
 				</linkableFacilities>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
 		<designationHotKey>Misc2</designationHotKey>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -598,10 +601,17 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<statBases>
+			<Mass>10</Mass>
+			<WorkToBuild>850</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
 		<researchPrerequisites>
 			<li>DrugProduction</li>
 		</researchPrerequisites>
 		<designationCategory>MV_Workbenches</designationCategory>
+		<passability>PassThroughOnly</passability>
 	</ThingDef>
 	<!--Cooking-->
 	<ThingDef ParentName="BenchBase">
@@ -849,7 +859,7 @@
 		<defName>DankPyon_Grill</defName>
 		<label>Grill</label>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
-		<description>A wood fueled grill used for cooking meals with an open fire.</description>
+		<description>A wood fueled grill used for cooking meals with an open fire. Can only cook certain foods.</description>
 		<graphicData>
 			<texPath>Productions/Grill</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -947,6 +957,9 @@
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
+		<researchPrerequisites>
+		<li MayRequire="Vanilla Cooking Expanded">VCE_Grilling</li>
+		</researchPrerequisites>		
 	</ThingDef>
 	<ThingDef ParentName="BenchBase">
 		<defName>DankPyon_StewPot</defName>

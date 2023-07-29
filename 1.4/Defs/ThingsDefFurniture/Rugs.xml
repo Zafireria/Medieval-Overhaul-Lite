@@ -88,6 +88,7 @@
 			<Leather_Wolf>36</Leather_Wolf>
 		</costList>
 		<size>(2,2)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -109,6 +110,7 @@
 			<Leather_Wolf>36</Leather_Wolf>
 		</costList>
 		<size>(2,2)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -130,6 +132,7 @@
 			<Leather_Wolf>36</Leather_Wolf>
 		</costList>
 		<size>(2,2)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -151,6 +154,7 @@
 			<Leather_Panthera>40</Leather_Panthera>
 		</costList>
 		<size>(2,2)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -172,6 +176,7 @@
 			<Leather_Panthera>40</Leather_Panthera>
 		</costList>
 		<size>(2,2)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -193,6 +198,7 @@
 			<Leather_Bear>86</Leather_Bear>
 		</costList>
 		<size>(3,3)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -214,6 +220,7 @@
 			<Leather_Bear>86</Leather_Bear>
 		</costList>
 		<size>(3,3)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -235,6 +242,7 @@
 			<Leather_Plain>50</Leather_Plain>
 		</costList>
 		<size>(3,3)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -256,6 +264,7 @@
 			<Leather_Thrumbo>160</Leather_Thrumbo>
 		</costList>
 		<size>(3,3)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -277,6 +286,7 @@
 			<Leather_Heavy>180</Leather_Heavy>
 		</costList>
 		<size>(4,4)</size>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
 		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -298,6 +308,7 @@
 			<Leather_Human>75</Leather_Human>
 		</costList>
 		<size>(1,2)</size>
-		<designationCategory>MV_Deco</designationCategory>
+		<designatorDropdown>Zaf_Rugs</designatorDropdown>
+		<designationCategory>Zaf</designationCategory>
 	</ThingDef>
 </Defs>

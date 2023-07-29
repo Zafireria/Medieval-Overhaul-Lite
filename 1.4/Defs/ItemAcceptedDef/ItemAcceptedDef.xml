@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+		
+	<ItemProcessor.ItemAcceptedDef>
+		<defName>DankPyon_DryingRack1x2c</defName>
+		<building>DankPyon_DryingRack1x2c</building>
+		<slot>1</slot>
+		<items>
+			<li>MeatRaw</li>
+		</items>
+	</ItemProcessor.ItemAcceptedDef>	
+	
+</Defs>
