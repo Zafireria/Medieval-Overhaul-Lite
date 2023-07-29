@@ -1,14 +1,14 @@
-30/01/2023
+29/07/2023
 
-- Fixed Spear rack, Mixed rack and Straw pile errors when using LMW's Storage mod.
-
-<<<<<<< HEAD
-- Fixed rotation on carts. 
-
-
-31/01/2023
-
-- Fixed hitboxes/size on a couple of items.
+- Added so the grill can grill food if Vanilla Cooking Expanded is installed using their recipes. Requires VCE Grilling research.
+- Changed some names. MO Misc to MOL Deco, Medieval Furniture to MOL Furniture. MO Workbenches to MOL Work. In the Architect tab.
+- Changed some descriptions on some stuff.
+- Moved Market tents, Rugs, and Signs into a scroll drop to make it less cluttered.
+- Reduced the research points. Storage 500. Workbench Tools 700. Reinforced 1700. This is the base for Medieval techlevel. Lower techlevel will be higher cost and higher techlevel will be lower cost.
+- Alchemist bench is no longer passable or instant to build.
+- Changed so Slab Door and Wooden Log wall requires "Reinforced" research. Was done due to the hit points on the two being higher than that was the default starter structures.
+- If VGP Fabric is installed the Spinning Wheel can now craft the same items as VGP´s Tableloom.
+- If Vanilla Factions Expanded - Classical is installed and Jerky research has been unlocked the drying rack will now produce jerky. Due to it being bigger than VFEC, I have increased the jerky amount to 150 and the time it takes to make from 15 days to 20 days. 
 
 
 08/02/2023
@@ -16,7 +16,15 @@
 - Fixed up some strings.
 - Added patch for "VGP Garden Fabric" to the looms.
 - Added patch for "Jewelry", now the jewelery Bench can make jewels.
-- Added patch for "Smoking Meat" the smoker should now be able to make smoked food. 
-=======
+- Added patch for "Smoked Meat" the smoker should now be able to make smoked food. 
+
+
+31/01/2023
+
+- Fixed hitboxes/size on a couple of items.
+
+
+30/01/2023
+
+- Fixed Spear rack, Mixed rack and Straw pile errors when using LMW's Storage mod.
 - Fixed rotation on carts. 
->>>>>>> 5de83e3d9fd8fd070cf79c2f6a5b09482a702ccf
