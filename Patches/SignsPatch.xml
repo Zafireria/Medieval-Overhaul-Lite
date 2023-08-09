@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>DankPyon.Medieval.Overhaul</li>
+				</mods>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Sign_Tavern"]</xpath>
+					<value>
+						<minifiedDef>MinifiedThing</minifiedDef>
+						<thingCategories>
+							<li>BuildingsFurniture</li>
+						</thingCategories>
+					</value>
+			</li>
+			</operations>
+	
+    </Operation>
+</Patch>
