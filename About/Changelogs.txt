@@ -1,6 +1,10 @@
+31/08/2023
+
+- Added food from Zaljerem's "Medieval Overhaul Food Only" personal fork.
+
 09/08/2023
 
-- Added signs from Medieval Overhaul Extra Signs addon, courtesy of Mewn Goddess - https://steamcommunity.com/sharedfiles/filedetails/?id=2967087032
+- Added signs from Mewn Goddess' "Medieval Overhaul Extra Signs" addon.
 
 29/07/2023
 

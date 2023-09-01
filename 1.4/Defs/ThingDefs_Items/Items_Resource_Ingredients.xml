@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<!-- ==================== Processed Resource ======================= -->  
+
+<ThingDef ParentName="MealBase">
+  <defName>DankPyon_Sausages</defName>
+  <label>Raw sausage</label>
+  <description>Minced meat mixed with herbs and spices.</description>
+  <stackLimit>30</stackLimit>
+  <graphicData>
+    <texPath>Resources/Sausage</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+  </graphicData>
+  <statBases>
+    <Nutrition>0.2</Nutrition>
+    <MarketValue>10</MarketValue>
+    <Mass>0.010</Mass>
+    <Flammability>1.8</Flammability>
+  </statBases>
+  <thingCategories>
+    <li>Foods</li>
+  </thingCategories>
+  <ingestible>
+    <tasteThought>AteRawFood</tasteThought>
+    <preferability>NeverForNutrition</preferability>
+    <optimalityOffsetFeedingAnimals>6</optimalityOffsetFeedingAnimals>
+  </ingestible>	
+</ThingDef>  
+
+</Defs>

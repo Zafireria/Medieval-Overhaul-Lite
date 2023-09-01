@@ -2,11 +2,53 @@
 
 <ModMetaData>
   <name>Medieval Overhaul Lite</name>
-  <author>SirLalaPyon, Zaf, Mewn Goddess, XxHyde840xX</author>
-  <packageId>Zaf.Medieval</packageId>  
+  <author>SirLalaPyon, Zaf, XxHyde840xX, Zaljerem</author>
+  <packageId>840.Zaf.Medieval</packageId>  
   <supportedVersions>
-  <li>1.4</li>
+	<li>1.4</li>
   </supportedVersions>
-  <description>Medieval Furnitures and Signs.
+  <loadAfter>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>LWM.DeepStorage</li>
+		<li>syrchalis.processor.framework</li>
+	</loadAfter>
+	<modDependencies>
+	  <li>
+		<packageId>brrainz.harmony</packageId>
+		<displayName>Harmony</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	  </li>
+	  <li>
+		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		<displayName>Vanilla Expanded Framework</displayName>
+		<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+	  </li>
+	   <li>
+            <packageId>VanillaExpanded.VPlantsE</packageId>
+            <displayName>Vanilla Plants Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522</steamWorkshopUrl>
+	  </li>
+		<li>
+            <packageId>VanillaExpanded.VCookE</packageId>
+            <displayName>Vanilla Cooking Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519</steamWorkshopUrl>
+	  </li>
+		<li>
+            <packageId>VanillaExpanded.VPlantsEMore</packageId>
+            <displayName>Vanilla Plants Expanded - More Plants</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522</steamWorkshopUrl>
+	  </li>
+	</modDependencies>
+  <description>Medieval Furnitures and Signs and Foods.
+========== 
+Requires:
+==========
+Harmony
+Vanilla Expanded Framework
+Vanilla Plants Expanded
+Vanilla Cooking Expaanded
+Vanilla Plants Expanded - More Plants
 </description>
 </ModMetaData>
