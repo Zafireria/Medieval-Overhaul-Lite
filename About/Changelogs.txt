@@ -1,3 +1,11 @@
+31/08/2023
+
+- Added food from Zaljerem's "Medieval Overhaul Food Only" personal fork.
+
+09/08/2023
+
+- Added signs from Mewn Goddess' "Medieval Overhaul Extra Signs" addon.
+
 29/07/2023
 
 - Added so the grill can grill food if Vanilla Cooking Expanded is installed using their recipes. Requires VCE Grilling research.

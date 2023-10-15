@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Bed</defName>
+		<label>inn sign</label>
+		<graphicData>
+				<texPath>Furniture/SignBed</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Moon</defName>
+		<label>flophouse sign</label>
+		<graphicData>
+				<texPath>Furniture/SignMoon</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Swords</defName>
+		<label>armory sign</label>
+		<graphicData>
+				<texPath>Furniture/SignSwords</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Horseshoe</defName>
+		<label>stable sign</label>
+		<graphicData>
+				<texPath>Furniture/SignHorse</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Scales</defName>
+		<label>shop sign</label>
+		<graphicData>
+				<texPath>Furniture/SignScales</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Scroll</defName>
+		<label>magic shop sign</label>
+		<graphicData>
+				<texPath>Furniture/SignScroll</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Bow</defName>
+		<label>archery sign</label>
+		<graphicData>
+				<texPath>Furniture/SignBow</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_SignBase">
+		<defName>Mewn_Sign_Quarry</defName>
+		<label>quarry sign</label>
+		<graphicData>
+				<texPath>Furniture/SignQuarry</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+    
+
+<!--<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName = "VCE_Salt]</xpath>
+        <match Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName = "VCE_Salt]/statBases</xpath>
+            <match Class="PatchOperationConditional">
+            <xpath>Defs/ThingDef[defName = "VCE_Salt]/statBases/Nutrition</xpath>
+                <match Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName = "VCE_Salt]/statBases/Nutrition</xpath>
+                    <value>
+                        <Nutrition>0.1</Nutrition>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "VCE_Salt]/statBases</xpath>
+                    <value>
+                        <Nutrition>0.1</Nutrition>
+                    </value>
+                </nomatch>
+            </match>
+            <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "VCE_Salt]</xpath>
+                <value>
+                    <statBases>
+                        <Nutrition>0.1</Nutrition>
+                    </statBases>
+                </value>
+            </nomatch>
+        </match>
+    </Operation>-->
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName="VCE_Salt"]/statBases/Nutrition</xpath>
+  <value>
+    <Nutrition>0.1</Nutrition>
+  </value>
+</Operation>
+
+</Patch>
